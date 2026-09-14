@@ -20,8 +20,6 @@ public:
             }
         }
         
-        // The kth missing number falls between arr[high] and arr[low]
-        // Mathematically: arr[high] + (k - (arr[high] - (high + 1))) simplifies to low + k
         return low + k;
     }
 };
