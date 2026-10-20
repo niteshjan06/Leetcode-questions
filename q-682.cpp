@@ -16,7 +16,6 @@ public:
                 }
             }
         }
-
         int sum=0;
         for(int i=0;i<st.size();i++){
             sum+=st[i];
